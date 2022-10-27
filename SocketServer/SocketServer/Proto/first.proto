@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package first;
+
+message Request {
+  string action = 1;
+  uint32 mode = 2;
+  int32 pt = 3;
+  uint32 sort = 4;
+  uint32 keepL = 5;
+  uint32 dc = 6;
+}
+
+message Response {
+  message Scht {
+    string tnA = 1;
+    string tnB = 2;
+    string tcA = 3;
+    string tcB = 4;
+  }
+
+  message Data {
+    uint32 schId = 1;
+    uint32 mode = 2;
+    uint32 pt = 3;
+    uint32 people = 4;
+    Scht schT = 5;
+    uint32 liveId = 6;
+    string liveName = 7;
+    string liveLang = 8;
+    string alName = 9;
+  }
+
+  message Aldata {
+    repeated string pt = 1;
+  }
+
+  string action = 1;
+  repeated uint32 menu = 2;
+  repeated uint32 index = 3;
+  repeated Data data = 4;
+  repeated uint32 alMenu = 5;
+  Aldata alData = 6;
+  uint32 dc = 7;
+}
