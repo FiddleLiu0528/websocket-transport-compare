@@ -138,5 +138,5 @@ json compress 的就得拿到資料解壓才看的到，如果有心且知道壓
 
 ### 參考
 
-[請求結果紀錄](https://docs.google.com/spreadsheets/d/1HQoRscKhR_UvttXspgSPrKg8S9mlLpif3awZb3I8iTk/edit#gid=1503123588)
+[請求結果紀錄](https://docs.google.com/spreadsheets/d/1HQoRscKhR_UvttXspgSPrKg8S9mlLpif3awZb3I8iTk/edit#gid=1503123588)  
 [blog](https://fiddleliu0528.github.io/2022/10/26/使用protobuf格式透過websocket交換資料/#more)
